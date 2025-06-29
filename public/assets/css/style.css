@@ -1,0 +1,138 @@
+body {
+  background: url("/assets/img/bg-ps.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* backdrop-filter: blur(2px); */ /* opsional, hapus jika tidak mau blur */
+  color: #f0f0f0;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 0 30px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+/* Navigasi */
+nav {
+  background-color: #1a1a2e;
+  padding: 15px;
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Link Global & Navigasi */
+a,
+nav a {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+a:hover {
+  color: #03a9f4;
+}
+
+/* Heading */
+h1,
+h2 {
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+/* Kartu Produk */
+.product-card {
+  background-color: #161b22;
+  padding: 15px;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #0ff;
+}
+
+/* Tombol */
+button,
+input[type="submit"] {
+  background-color: #1976d2;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Link Tombol (edit, hapus, tambah) */
+.button-link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+.button-link:hover {
+  background-color: #444;
+}
+
+/* Gambar */
+img {
+  border-radius: 8px;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+/* Kontainer konten utama */
+.container {
+  background-color: rgba(15, 15, 30, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Tabel (misalnya keranjang, invoice) */
+table {
+  background-color: #161b22;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #30363d;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background-color: #1f1f2e;
+  color: #f0f0f0;
+  font-size: 1em;
+}
